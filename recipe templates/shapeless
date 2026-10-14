@@ -1,0 +1,23 @@
+{
+    "format_version": "1.21.90",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "myname:addon"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            "minecraft:item1",
+            "minecraft:item2"
+        ],
+        "result": {
+            "item": "myname:addon"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:item1"
+            }
+        ]
+    }
+}
