@@ -18,10 +18,13 @@
             },
             "/": {
                 "item": "minecraft:item2"
+            },
+            "@": {
+                "item": "minecraft:item3"
             }
         },
         "result": {
-            "item": "myname:addon"
+            "item": "myname:item1"
         },
         "unlock": [
             {
