@@ -24,11 +24,11 @@
             }
         },
         "result": {
-            "item": "myname:item1"
+            "item": "myname:addon"
         },
         "unlock": [
             {
-                "item": "minecraft:addon"
+                "item": "minecraft:item1"
             }
         ]
     }
