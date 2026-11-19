@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.attack": {
+      "initial_state": "peaceful",
+      "states": {
+        "peaceful": {
+          "animations": ["idle"],
+          "transitions": [
+            {
+              "angry": "q.has_target"
+            }
+          ]
+        },
+        "angry": {
+          "animations": ["attack"],
+          "transitions": [
+            {
+              "peaceful": "!q.has_target"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
