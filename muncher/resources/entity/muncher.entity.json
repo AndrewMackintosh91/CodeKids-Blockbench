@@ -1,0 +1,25 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "myname:muncher",
+    "animations": {
+            "idle": "animation.muncher.idle",
+            "attack": "animation.muncher.attack",
+            "ctrl": "controller.animation.attack"
+            },
+            "scripts": {
+                "animate": ["idle", "ctrl"]
+            },
+            "materials": {
+                "default": "entity"
+            },
+            "textures": {
+                "default": "textures/entity/muncher"
+            },
+            "geometry": {
+                "default": "geometry.muncher"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
