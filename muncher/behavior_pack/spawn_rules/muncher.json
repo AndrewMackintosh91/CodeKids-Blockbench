@@ -1,0 +1,55 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:spawn_rules": {
+        "description": {
+            "identifier": "myname:muncher2",
+            "population_control": "monster"
+        },
+        "conditions": [
+            {
+                "minecraft:spawns_on_surface": {},
+                "minecraft:is_persistent": {},
+                "minecraft:disallow_spawns_in_bubble": {},
+                "minecraft:spawns_on_block_filter": [
+                    "minecraft:gravel",
+                    "minecraft:dirt",
+                    "minecraft:podzol"
+                ],
+                "minecraft:spawns_on_block_prevented_filter": [
+                    "minecraft:sand",
+                    "minecraft:magma",
+                    "minecraft:grass_block"
+                ],
+                "minecraft:brightness_filter": {
+                    "min": 0,
+                    "max": 7,
+                    "adjust_for_weather": true
+                },
+                "minecraft:difficulty_filter": {
+                    "min": "easy",
+                    "max": "hard"
+                },
+                "minecraft:distance_filter": {
+                    "min": 10,
+                    "max": 28
+                },
+                "minecraft:height_filter": {
+                    "min": -64,
+                    "max": 30
+                },
+                "minecraft:weight": {
+                    "default": 100
+                },
+                "minecraft:herd": {
+                    "min_size": 2,
+                    "max_size": 4
+                },
+                "minecraft:biome_filter": {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "monster"
+                }
+            }
+        ]
+    }
+}
