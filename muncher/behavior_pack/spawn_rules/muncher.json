@@ -2,7 +2,7 @@
     "format_version": "1.8.0",
     "minecraft:spawn_rules": {
         "description": {
-            "identifier": "myname:muncher2",
+            "identifier": "myname:muncher",
             "population_control": "monster"
         },
         "conditions": [
@@ -13,12 +13,12 @@
                 "minecraft:spawns_on_block_filter": [
                     "minecraft:gravel",
                     "minecraft:dirt",
-                    "minecraft:podzol"
+                    "minecraft:podzol",
+                    "minecraft:grass_block"
                 ],
                 "minecraft:spawns_on_block_prevented_filter": [
                     "minecraft:sand",
-                    "minecraft:magma",
-                    "minecraft:grass_block"
+                    "minecraft:magma"
                 ],
                 "minecraft:brightness_filter": {
                     "min": 0,
